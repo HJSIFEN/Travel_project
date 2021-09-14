@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>국내여행|서울|종묘</title>
+        <style>
+            body{
+		margin : 0;
+		padding : 0;
+        background-image : url('../경상도.jpg');
+		background-size : 1920px 753px;
+		
+		background-repeat : no-repeat;
+		background-color:#D9E5FF;
+	}
+    .main{
+    }
+
+    .title{
+        float: left; 
+        width : 300px;
+      	height : 753px;
+        background : rgba(0,0,0,0.5);
+        margin-right :0;
+        
+    }
+    ul.lst{
+      position:absolute;
+		list-style : none;
+		float : right;
+		top : 120px; left : -50px;
+	}
+
+  div.main_title
+  {
+      height : 60px;
+      width : 100%;
+  }
+    ul.lst li{
+        
+		margin-bottom :40px;
+		text-align:right;
+		font-size: 1.5em;
+		color : white;
+		padding-left : 200px;
+		padding-right : 40px;
+		padding-top : 5px;
+		padding-bottom : 5px;
+		margin-left : 0px;
+	}
+     ul.lst li:hover{
+	background: gray;
+  color : rgb(255, 255, 169);
+	}
+      h3 {
+	font-size : 2em;
+	position:absolute;
+	left :70px; 
+      }
+      
+      
+    a{
+		text-decoration: none;
+		color:inherit;
+	  }
+      .content
+      {
+        position : absolute;
+        left : 300px;
+        
+        height : 743px;
+        width : 1210px;
+        margin : 0;
+        padding-left : 10px;
+        padding-bottom : 0;
+        padding-right : 0;
+        padding-top : 10px;
+        background-color: rgba( 255, 255, 255, 0.5 );
+        
+      }
+      td{
+        text-align : center;
+      }
+      td:hover{
+        font-weight : bold;
+        background-color: rgba(255,255,255,0.5);
+        z-index : 10;
+      }
+      p.tb{
+        padding : 0px;
+        margin : 0px;
+        background-color: ivory;
+      }
+      .place_info{
+        font-size : 30px; font-weight : bold;
+      }
+      .sub_info{
+        
+        margin : 0;
+        font-weight :bold;
+        font-size : 20px;
+        padding : 0;
+      }
+      div.article{
+        font-size : 20px;
+        font-weight: bold;
+        padding-bottom: 5px;
+        
+      }
+      table{
+        border-bottom :solid; border-bottom-width : 1px; border-top:solid; border-top-width : 1px; 
+      }
+        </style>
+        <script>
+          function img_click(a,b){
+            document.getElementById(b).getElementsByTagName("img")[0].src = a.href;
+            if(document.getElementById(b).style.display == 'block'){
+              document.getElementById(b).style.display = 'none';
+            }
+            else document.getElementById(b).style.display = 'block';
+            
+          }
+          function hide(c){
+            document.getElementById(c).style.display = 'none'
+          }
+          </script>
+    </head>
+    <body>
+        <div class = "main">
+            <div class = "title">
+                <h3><a href = "../최신.html">국내여행</a></h3>
+                <ul class ="lst">
+                  <li><a href = "../서울.html">서울</a></li>
+                  <li><a href = "../강원도.html">강원도</a></li>
+                  <li><a href = "../충청도.html">충청도</a></li>
+                  <li><a href = "../경상도.html">경상도</a></li>
+                  <li><a href = "../전라도.html">전라도</a></li>
+                  <li><a href = "../제주도.html">제주도</a></li>
+            </div>
+            <div class = "content">
+                <div class = "article">
+                종묘 <button style ="margin-left: 1000px;" onclick = "alert('추천하였습니다')">추천</button><button style = "margin-left: 10px;" onclick = "alert('비추하였습니다.')">비추</button>
+            </div>
+            <hr>
+            <div style = "margin-left: 20px;">
+                
+                <p style = "font-size : 14px; line-height : 150%;">
+                  <span style = "font-weight: bold;font-size: 20px;">종묘</span>는 조선왕조 역대 왕과 왕후 및 추존된 왕과 왕후의 신주를 모신 사당으로서 가장 정제되고 장엄한 건축물 중의 하나이다.<br>
+                    <br>종묘는 태조 3년 (1394) 10월 조선 왕조가 한양으로 도읍을 옮긴 그해 12월에 착공하여 이듬해(1395) 9월에 완공 하였으며,<br>
+                   곧이어 개성으로부터 태조의 4대조인 목조, 익조, 도조, 환조의 신주를 모셨다.
+                  <br><br>현재 정전에는 19실에 49위, 영녕전에는 16실에 34위의 신주가 모셔져 있고, 정전 뜰앞에 있는 공신당에는 정전에 계신 왕들의 공신 83위가 모셔져 있다.
+                  
+                  </p>
+                
+            </div>
+            <hr>
+            <div>
+                <div class = "article">
+                    사진
+                </div>
+                <talbe style = "margin-left: 20px;">
+                       <tr>
+                           <td><a href = "종묘1.jpg" onclick= "img_click(this,'bigimg'); return false;"><img src = "종묘1.jpg" title = "종묘1"  height = "80px"></a></td>
+                           <td><a href = "종묘2.jpg" onclick= "img_click(this,'bigimg'); return false;"><img src = "종묘2.jpg" title = "종묘2"  height = "80px"></a></td>
+                            <td><a href = "종묘3.jpg" onclick= "img_click(this,'bigimg'); return false;"><img src = "종묘3.jpg"  title = "종묘3" height = "80px"></a></td>
+                            <td><a href = "종묘4.jpg" onclick= "img_click(this,'bigimg'); return false;"><img src = "종묘4.jpg"  title = "종묘4" height = "80px"></a></td>                        
+                            <td><a href = "종묘5.jpg" onclick= "img_click(this,'bigimg'); return false;"><img src = "종묘5.jpg"  title = "종묘5" height = "80px"></a></td>
+                            <td><a href = "종묘6.jpg" onclick= "img_click(this,'bigimg'); return false;"><img src = "종묘6.jpg"  title = "종묘6" height = "80px"></a></td>
+                          </tr>
+                    </talbe>
+                <hr>
+                <div class = "article">
+                    동영상
+                </div>
+                <div>
+                  <iframe style = "margin-left : 50px" width="504" height="283" src="https://www.youtube.com/embed/54rFhVseK5E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  <iframe style = "margin-left : 50px" width="504" height="283" src="https://www.youtube.com/embed/cmhLPBOrnZs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+                <hr>
+                <span><b>종묘 웹사이트 : </b></span><a href = "https://jm.cha.go.kr/agapp/main/index.do?siteCd=JM" target = "_blank">https://jm.cha.go.kr/agapp/main/index.do?siteCd=JM</a>
+            </div> </div> 
+            
+        </div>
+        <div id = "bigimg" style = "display:none; position:absolute; left : 305px; top: 20px; overflow:hidden; border : 0px solid #ff6600;" align = "center">
+          <img src = "" height = "650px" width = "1200px" style = "border:1px solid black;" onclick="hide('bigimg')">
+          <br>
+          <div style = "background-color:#003cfe;"><strong>이미지를 클릭하면 종료됩니다.</strong></div>
+        </div>
+    </body>
+</html>
